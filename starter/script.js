@@ -76,8 +76,8 @@ console.log(fruitProcessor(2, 3));
 
 const calcAverage = (score1, score2, score3) => (score1 + score2 + score3) / 3;
 
-const koalasAverage = calcAverage(65, 54, 49);
-const dolphinsAverage = calcAverage(44, 23, 71);
+let koalasAverage = calcAverage(65, 54, 49);
+let dolphinsAverage = calcAverage(44, 23, 71);
 
 console.log(koalasAverage);
 console.log(dolphinsAverage);
@@ -95,3 +95,11 @@ const checkWinner = function (koalasAverage, dolphinsAverage) {
 }
 checkWinner(koalasAverage, dolphinsAverage);
 checkWinner(587, 110);
+
+// Test 2 
+dolphinsAverage = calcAverage(85, 54, 41);
+koalasAverage = calcAverage(23, 34, 27);
+console.log(koalasAverage, dolphinsAverage);
+checkWinner(koalasAverage, dolphinsAverage);
+
+
