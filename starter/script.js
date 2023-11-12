@@ -176,7 +176,7 @@ if (friends.includes(`Miguel`)) {
 }
 */
 
-
+/*
 // Arrayy Exercise:
 // Steven is still building his tip calculator, using the same rules as before: Tip 15% of
 // the bill if the bill value is between 50 and 300, and if the value is different, the tip is
@@ -207,6 +207,17 @@ const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
 const totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
 
 console.log(bills, tips, totals);
+*/
+
+// Introduction to Objects
+
+const victor = {
+    firstName: `Victor`,
+    lastName: `Alves`,
+    age: 2023 - 1999,
+    job: `programmer`,
+    friends: [`Felipe`, `Miguel`, `Renan`]
+};
 
 
 
