@@ -209,6 +209,7 @@ const totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
 console.log(bills, tips, totals);
 */
 
+/*
 // Introduction to Objects
 
 const victor = {
@@ -219,6 +220,7 @@ const victor = {
     friends: [`Felipe`, `Miguel`, `Renan`]
 };
 console.log(victor);
+*/
 
 /*
 // Dot vs. Bracket Notation
@@ -244,6 +246,50 @@ console.log(victor);
 
 console.log(`${victor.firstName} has ${victor.friends.length} friends, and hist best friends is called ${victor.friends[0]}`);
 */
+
+
+// Object Methods
+
+const victor = {
+    firstName: `Victor`,
+    lastName: `Alves`,
+    birthYear: 1991,
+    job: `programmer`,
+    friends: [`Felipe`, `Miguel`, `Renan`],
+    hasDriversLicense: true,
+
+
+    // calcAge: function (birthYear){
+    //  return 2037 - birthYear;
+    // }
+
+    // calcAge: function(){
+    //  return 2037 - this.birthYear;
+    // }
+
+    calcAge: function () {
+        this.age = 2037 - this.birthYear;
+        return this.age;
+    },
+
+    getSummary: function () {
+        return `${this.firstName} is a ${this.calcAge()}-year old ${this.job}, and he has ${this.hasDriversLicense ? `a` : `no`} drivers license.`
+    },
+};
+
+console.log(victor.calcAge());
+console.log(victor.getSummary());
+
+
+
+
+
+
+
+
+
+
+
 
 
 
