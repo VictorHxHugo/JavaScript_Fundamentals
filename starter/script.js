@@ -281,7 +281,7 @@ console.log(victor.calcAge());
 console.log(victor.getSummary());
 */
 
-
+/*
 // Coding Challenge
 
 //Let's go back to Mark and John comparing their BMIs! This time, let's use //objects to
@@ -326,7 +326,25 @@ if (markMiller.calcBMI() >= johnSmith.calcBMI()) {
 } else {
     console.log(`${johnSmith.firstName}'s BMI(${johnSmith.calcBMI()} is higher than ${markMiller.firstName}'s(${markMiller.calcBMI()}))`);
 }
+*/
 
+// The for Loop
+
+//console.log(`Lifiting weights repetition 1 🏋️‍♀️`);
+//console.log(`Lifiting weights repetition 2 🏋️‍♀️`);
+//console.log(`Lifiting weights repetition 3 🏋️‍♀️`);
+//console.log(`Lifiting weights repetition 4 🏋️‍♀️`);
+//console.log(`Lifiting weights repetition 5 🏋️‍♀️`);
+//console.log(`Lifiting weights repetition 6 🏋️‍♀️`);
+//console.log(`Lifiting weights repetition 7 🏋️‍♀️`);
+//console.log(`Lifiting weights repetition 8 🏋️‍♀️`);
+//console.log(`Lifiting weights repetition 9 🏋️‍♀️`);
+//console.log(`Lifiting weights repetition 10 🏋️‍♀️`);
+
+// for loop keeps running while condition is TRUE
+for (let rep = 1; rep <= 10; rep++) {
+    console.log(`Lifiting weights repetition ${rep} 🏋️‍♀️`);
+}
 
 
 
