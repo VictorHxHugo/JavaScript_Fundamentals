@@ -218,11 +218,32 @@ const victor = {
     job: `programmer`,
     friends: [`Felipe`, `Miguel`, `Renan`]
 };
+console.log(victor);
 
+/*
+// Dot vs. Bracket Notation
 
+console.log(victor.lastName);
+console.log(victor[`lastName`]);
 
+const nameKey = `Name`;
+console.log(victor[`first` + nameKey]);
+console.log(victor[`last` + nameKey]);
 
+const interestedIn = prompt(`What do you want to know about Victor? Choose between firstName, LastName, age, job and friends`);
 
+if (victor[interestedIn]) {
+    console.log(victor[interestedIn]);
+} else {
+    console.log(`Wrong request? Choose between firstName, LastName, age, job and friends`);
+}
+
+victor.location = `Santos`;
+victor[`twitter`] = `@victorhxhugo`
+console.log(victor);
+
+console.log(`${victor.firstName} has ${victor.friends.length} friends, and hist best friends is called ${victor.friends[0]}`);
+*/
 
 
 
