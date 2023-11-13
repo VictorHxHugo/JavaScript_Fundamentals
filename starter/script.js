@@ -328,6 +328,7 @@ if (markMiller.calcBMI() >= johnSmith.calcBMI()) {
 }
 */
 
+/*
 // The for Loop
 
 //console.log(`Lifiting weights repetition 1 🏋️‍♀️`);
@@ -345,6 +346,59 @@ if (markMiller.calcBMI() >= johnSmith.calcBMI()) {
 for (let rep = 1; rep <= 10; rep++) {
     console.log(`Lifiting weights repetition ${rep} 🏋️‍♀️`);
 }
+*/
+
+// Looping Arrays, Breaking and Continuing
+
+const victor = [
+    `Victor`,
+    `Alves`,
+    1991,
+    `programmer`,
+    [`Felipe`, `Miguel`, `Renan`],
+];
+const types = [];
+
+for (let i = 0; i < victor.length; i++) {
+    // Reading victor array
+    console.log(victor[i], typeof victor[i]);
+
+    // Filling types array
+
+    types.push(typeof victor[i]);
+}
+
+console.log(types);
+
+const years = [1991, 2007, 1969, 2020];
+const ages = [];
+
+for (let i = 0; i < years.length; i++) {
+    ages.push(2037 - years[i]);
+}
+
+console.log(ages);
+
+// continue and break
+console.log(`---ONLY STRINGS ---`)
+for (let i = 0; i < victor.length; i++) {
+    if (typeof victor[i] !== `string`) continue;
+
+    console.log(victor[i], typeof victor[i]);
+}
+
+console.log(`---BREAK WITH NUMBER---`);
+for (let i = 0; i < victor.length; i++) {
+    if (typeof victor[i] === `number`) break;
+
+    console.log(victor[i], typeof victor[i]);
+}
+
+
+
+
+
+
 
 
 
