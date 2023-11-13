@@ -348,6 +348,7 @@ for (let rep = 1; rep <= 10; rep++) {
 }
 */
 
+/*
 // Looping Arrays, Breaking and Continuing
 
 const victor = [
@@ -393,6 +394,30 @@ for (let i = 0; i < victor.length; i++) {
 
     console.log(victor[i], typeof victor[i]);
 }
+*/
+
+// Looping Backwards and Loops in Loops
+
+const victor = [
+    `Victor`,
+    `Alves`,
+    1991,
+    `programmer`,
+    [`Felipe`, `Miguel`, `Renan`],
+];
+
+for (let i = victor.length - 1; i >= 0; i--) {
+    console.log(i, victor[i])
+}
+
+for (let exercise = 1; exercise < 5; exercise++) {
+    console.log(`------ Starting exercise ${exercise}`);
+
+    for (let rep = 1; rep < 6; rep++) {
+        console.log(`Exercise ${exercise}: Lifting weight repetition ${rep}🏋️‍♀️`)
+    }
+}
+
 
 
 
